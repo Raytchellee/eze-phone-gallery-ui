@@ -17,6 +17,7 @@ export function Header(){
                 </div>
             </div>
             <div className={styles.rightSection}>
+                <div className={styles.imgBox} />
             </div>
         </div>
     )

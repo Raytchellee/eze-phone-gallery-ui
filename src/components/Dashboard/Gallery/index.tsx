@@ -1,24 +1,12 @@
+import { SideBar } from "./SideBar/index";
+import { Gadgets } from "./Gadgets/index";
+import styles from "./index.module.scss";
+
 export function Gallery(){
     return (
-        <div>
-            <Sidebar />
-            <Section />
-        </div>
-    )
-}
-
-function Sidebar(){
-    return (
-        <div>
-            SIDEBAR!!!!!
-        </div>
-    )
-}
-
-function Section(){
-    return (
-        <div>
-            Section!!!!!
+        <div className={styles.gallery}>
+            <SideBar />
+            <Gadgets />
         </div>
     )
 }

@@ -1,0 +1,84 @@
+@import "../../../../styles/index.scss";
+
+.gadgets {
+    // background-color: $AltbackgroundBlue;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    width: 80%;
+
+    .singleGadget {
+        background-color: $AltbackgroundBlue;
+        width: 200px;
+        height: 330px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        position:relative;
+        padding: 15px;
+
+        .photoContainer {
+            display: flex;
+            justify-content: center;
+
+            .gadgetPhoto {
+                width: 100px;
+                height: 100px;
+                background-image: url("../../../../images/iphone.jpg");
+                background-size: contain;
+                background-repeat:no-repeat;
+            }
+        }
+        
+
+        .gadgetName {
+            font-size: 18px;
+        }
+
+        .gadgetStorage {
+            font-size: 14px;
+        }
+
+        .unitPrice {
+            font-size: 12px;
+        }
+
+        .gadgetPrice {
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        .grade {
+            position: absolute;
+            right: 5px;
+            top: 5px;
+            border: 1px solid #fff;
+            font-size: 12px;
+            padding: 3px 7px;
+            margin-top: 10px;
+            margin-right: 8px;
+        }
+
+        .button {
+            display: flex;
+            justify-content: center;
+
+            button {
+                padding: 3px 5px;
+                border: none;
+                box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+                font-family: 'Roboto';
+                font-size: 14px;
+                font-weight: 300;
+                color: #fff;
+                background-color: $buttonColor;
+                width: 100px;
+                height: 30px;
+                border-radius: 3px;
+                text-transform: uppercase;
+            }
+        }
+
+        
+    }
+}

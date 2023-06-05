@@ -1,11 +1,12 @@
 import { AppProps } from 'next/app'
 import Head from 'next/head'
+import { RecoilRoot } from 'recoil'
 
 import "../styles/global.scss"
 
 function App({ Component, pageProps }: AppProps) {
   return (
-    <>
+    <RecoilRoot>
       <Head>
         <title>NextJS Boilerplate</title>
         <link rel="shortcut icon" href="/img/icon-512.png" />
@@ -17,7 +18,7 @@ function App({ Component, pageProps }: AppProps) {
         />
       </Head>
       <Component {...pageProps} />
-    </>
+    </RecoilRoot>
   )
 }
 
