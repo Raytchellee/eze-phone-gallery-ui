@@ -1,6 +1,6 @@
 ## Project Overview
 
-The phone gallery UI is a web application built with Next.js and utilizing Recoil for state management. It provides users a simple and intuitive way to browse and view a collection of phone images with description and price listing. This documentation will guide you through the installation process, explain the project structure, and provide details on how to use and customize the UI.
+The phone gallery UI is a web application built with Next.js and TypeScript, utilizing Recoil for state management. It provides users a simple and intuitive way to browse and view a collection of phone images with description and price listing. This documentation will guide you through the installation process, explain the project structure, and provide details on how to use and customize the UI.
 
 ## Features
 
