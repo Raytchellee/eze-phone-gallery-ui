@@ -125,4 +125,4 @@ Feel free to explore the project files and experiment with different customizati
 
 The phone gallery UI is open-source and released under the [MIT License](https://opensource.org/licenses/MIT). You are free to use, modify, and distribute the code.
 
-Please refer to the [LICENSE](https://github.com/raytchellee/eze-phone-gallery-ui/blob/main/LICENSE) file for more details.
+<!-- Please refer to the [LICENSE](https://github.com/raytchellee/eze-phone-gallery-ui/blob/main/LICENSE) file for more details. -->
