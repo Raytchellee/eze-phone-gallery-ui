@@ -4,11 +4,9 @@ The phone gallery UI is a web application built with Next.js that allows users t
 
 ## Table of Contents
 
-1. [Installation](#installation)
-<!-- 2. [Project Structure](#project-structure) -->
+1. [Installation](#installation)<!-- 2. [Project Structure](#project-structure) -->
 2. [Usage](#usage)
-3. [Customization](#customization)
-<!-- 5. [Contributing](#contributing) -->
+3. [Customization](#customization)<!-- 5. [Contributing](#contributing) -->
 4. [License](#license)
 
 ## Installation
