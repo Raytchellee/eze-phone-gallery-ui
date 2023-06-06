@@ -1,6 +1,16 @@
 ## Project Overview
 
-The phone gallery UI is a web application built with Next.js that allows users to browse and view a collection of phone images. This documentation will guide you through the installation process, explain the project structure, and provide details on how to use and customize the UI.
+The phone gallery UI is a web application built with Next.js and utilizing Recoil for state management. It provides users a simple and intuitive way to browse and view a collection of phone images with description and price listing. This documentation will guide you through the installation process, explain the project structure, and provide details on how to use and customize the UI.
+
+## Features
+
+- Display a grid of phone images with relevant details.
+- Filter and search functionality to find specific phones.
+- Responsive design for optimal viewing on various devices.
+
+## Demo
+
+You can check out a live demo of the Phone Gallery UI [here](https://phone-gallery-ui-live-fx5z-ng6171x2n-raytchellee.vercel.app/).
 
 ## Table of Contents
 
@@ -37,12 +47,12 @@ To install and run the phone gallery UI, follow these steps:
    npm run dev
    ```
 
-5. Open your browser and visit https://phone-gallery-ui-live-fx5z-ng6171x2n-raytchellee.vercel.app/ to view the phone gallery UI.
+5. Open your browser and visit http://localhost:3000 to view the phone gallery UI.
 
-<!-- ## Project Structure
+## Project Structure
 
 The project structure is organized as follows:
-
+<!-- 
 ```
 eze-phone-gallery-ui/
 ├── components/
@@ -67,7 +77,6 @@ eze-phone-gallery-ui/
 ├── README.md
 └── ...
 ``` -->
-
 - **components/**: Contains reusable UI components used in the phone gallery.
 - **pages/**: Contains the main pages of the application, including `index.tsx` for the gallery page.
 - **public/images/**: Directory for storing phone images.
@@ -77,14 +86,18 @@ eze-phone-gallery-ui/
 - **package.json**: Lists project dependencies and scripts.
 - **README.md**: The main documentation file.
 
+
 ## Usage
 
-The phone gallery UI provides a simple and intuitive interface for browsing phone images. Follow these steps to use the UI:
+The application consists of the following components:
 
-1. Open your browser and visit https://phone-gallery-ui-live-fx5z-ng6171x2n-raytchellee.vercel.app/ after starting the development server.
-2. You will see a grid of phone images on the gallery page.
-3. Click on an image to view it in a larger size and get more details.
-4. Use the navigation arrows or swipe gestures to navigate through the images.
+- **Gadgets**: Renders a grid of phone images with basic information.
+- **SideBar**: Allows filtering the gallery by brand or other criteria.
+- **Header**: Provides a search functionality to find specific phones.
+
+The Recoil library is used for managing the application's state. The relevant Recoil atoms and selectors are defined in the following files:
+
+- **`src/state/index.ts`**: Defines the Recoil atoms and selectors for managing the phone gallery state.
 
 ## Customization
 
