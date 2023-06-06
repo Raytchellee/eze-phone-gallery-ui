@@ -1,69 +1,117 @@
-# Starter for Next.js applications written in TypeScript
+## Project Overview
 
-A basic Starter for [Next.js](https://nextjs.org/) + TypeScript development with setup for PWA, Jest, Storybook, Eslint, Styled-components and more.
+The phone gallery UI is a web application built with Next.js that allows users to browse and view a collection of phone images. This documentation will guide you through the installation process, explain the project structure, and provide details on how to use and customize the UI.
 
----
+## Table of Contents
 
-__👌  The follwing is setup out of the box:__
-- Support to PWA using [next-pwa](https://www.npmjs.com/package/next-pwa)
-- UI components documentation with [Storybook](https://storybook.js.org/).
-- Styles via [Styled Components](https://styled-components.com/)
-- Consistent coding styles using [EditorConfig](https://editorconfig.org/)
-- Linting via [eslint](https://eslint.org/), [typescript-eslint](https://github.com/typescript-eslint/typescript-eslint) and [prettier](https://prettier.io/)
-- Testing via [Jest](https://jestjs.io/) and [React Testing Library](https://testing-library.com/docs/react-testing-library/intro)
-- Preventing bad `git commit` with [Husky](https://github.com/typicode/husky) and [lint-staged](https://github.com/okonet/lint-staged)
-- Consistency code generator with [Plop](https://plopjs.com/)
+1. [Installation](#installation)
+<!-- 2. [Project Structure](#project-structure) -->
+2. [Usage](#usage)
+3. [Customization](#customization)
+<!-- 5. [Contributing](#contributing) -->
+4. [License](#license)
 
-__Check all the [detailed functionalities in this article](https://www.diogorodrigues.dev/blog/modern-starter-for-nextjs-applications-written-in-typescript-and-more).__
+## Installation
 
+To install and run the phone gallery UI, follow these steps:
 
-## 🚀 Getting Started
+1. Clone the repository:
 
-Assuming [Node.js](https://nodejs.org/en/) is installed, run the following commands to install the project:
+   ```bash
+   git clone [https://github.com/Raytchellee/eze-phone-gallery-ui.git](https://github.com/Raytchellee/eze-phone-gallery-ui.git)
+   ```
 
+2. Navigate to the project directory:
 
-**With yarn create next-app**:
+   ```bash
+   cd eze-phone-gallery-ui
+   ```
+
+3. Install the dependencies:
+
+   ```bash
+   npm install
+   ```
+
+4. Start the development server:
+
+   ```bash
+   npm run dev
+   ```
+
+5. Open your browser and visit https://phone-gallery-ui-live-fx5z-ng6171x2n-raytchellee.vercel.app/ to view the phone gallery UI.
+
+<!-- ## Project Structure
+
+The project structure is organized as follows:
+
 ```
-$ yarn create next-app -e https://github.com/diogorodrigues/nextjs-typescript-starter your-project-name
-```
-or
+eze-phone-gallery-ui/
+├── components/
+│   ├── Gallery.js
+│   ├── Image.js
+│   └── ...
+├── pages/
+│   ├── index.js
+│   └── ...
+├── public/
+│   ├── images/
+│   │   ├── phone1.jpg
+│   │   ├── phone2.jpg
+│   │   └── ...
+│   └── ...
+├── styles/
+│   ├── global.css
+│   └── ...
+├── .gitignore
+├── next.config.js
+├── package.json
+├── README.md
+└── ...
+``` -->
 
-**With git clone**:
-```
-$ git clone https://github.com/diogorodrigues/nextjs-typescript-starter.git your-project-name
+- **components/**: Contains reusable UI components used in the phone gallery.
+- **pages/**: Contains the main pages of the application, including `index.js` for the gallery page.
+- **public/images/**: Directory for storing phone images.
+- **styles/**: Holds global CSS styles for the application.
+- **.gitignore**: Specifies files and directories to be ignored by Git.
+- **next.config.js**: Configuration file for Next.js.
+- **package.json**: Lists project dependencies and scripts.
+- **README.md**: The main documentation file.
 
-cd your-project-name
+## Usage
 
-rm -rf .git
-yarn install
-yarn dev
-```
+The phone gallery UI provides a simple and intuitive interface for browsing phone images. Follow these steps to use the UI:
 
-## Commands
+1. Open your browser and visit https://phone-gallery-ui-live-fx5z-ng6171x2n-raytchellee.vercel.app/ after starting the development server.
+2. You will see a grid of phone images on the gallery page.
+3. Click on an image to view it in a larger size and get more details.
+4. Use the navigation arrows or swipe gestures to navigate through the images.
 
-```bash
-yarn dev
-```
+## Customization
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+The phone gallery UI can be customized to fit your specific needs. Here are some possible customization options:
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+- **Styling**: Modify the CSS styles in the `styles/` directory to change the appearance of the UI.
+- **Layout**: Adjust the grid layout and image size in the `Gallery` component.
+- **Functionality**: Extend the UI with additional features like image filters, search, or sorting.
 
-### All commands
+Feel free to explore the project files and experiment with different customizations!
 
-- `dev`: runs your application on `localhost:3000`
-- `build`: creates the production build version
-- `start`: starts a simple server with the build production code
-- `lint`: runs the linter in all components and pages
-- `test`: runs jest to test all components and pages
-- `test:watch`: runs jest in watch mode
-- `storybook`: runs storybook on `localhost:6006`
-- `build-storybook`: create the build version of storybook
-- `generate component-name`: create component files
+## Contributing
 
-## Learn More
+<!-- Contributions are welcome!
 
-To learn more about Next.js, take a look at the following resources:
+ If you'd like to contribute to the phone gallery UI, please follow these guidelines:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+1. Fork the repository.
+2. Create a new branch for your feature/bug fix.
+3. Make your changes and ensure they are properly tested.
+4. Commit your changes and push them to your fork.
+5. Submit a pull request with a clear description of your changes.
+ -->
+## License
+
+The phone gallery UI is open-source and released under the [MIT License](https://opensource.org/licenses/MIT). You are free to use, modify, and distribute the code.
+
+Please refer to the [LICENSE](https://github.com/raytchellee/eze-phone-gallery-ui/blob/main/LICENSE) file for more details.
