@@ -1,6 +1,7 @@
-import { AppProps } from 'next/app'
-import Head from 'next/head'
-import { RecoilRoot } from 'recoil'
+import { AppProps } from 'next/app';
+import Head from 'next/head';
+import { RecoilRoot } from 'recoil';
+import { Toaster } from 'react-hot-toast';
 
 import "../styles/global.scss"
 
@@ -17,6 +18,7 @@ function App({ Component, pageProps }: AppProps) {
           content="A simple project starter to work with TypeScript, React, NextJS and Styled Components"
         />
       </Head>
+      <Toaster />
       <Component {...pageProps} />
     </RecoilRoot>
   )
