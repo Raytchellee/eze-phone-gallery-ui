@@ -79,7 +79,9 @@ eze-phone-gallery-ui/
 ``` -->
 - **components/**: Contains reusable UI components used in the phone gallery.
 - **pages/**: Contains the main pages of the application, including `index.tsx` for the gallery page.
-- **public/images/**: Directory for storing phone images.
+- **enums/**: Contains predefined options for variables or properties.
+- **interfaces/**: Defines the structure and behavior of objects.
+- **actions/**: Holds the implementation of user interactions or system events.
 - **styles/**: Holds global CSS styles for the application.
 - **.gitignore**: Specifies files and directories to be ignored by Git.
 - **next.config.js**: Configuration file for Next.js.
