@@ -18,7 +18,7 @@ To install and run the phone gallery UI, follow these steps:
 1. Clone the repository:
 
    ```bash
-   git clone [https://github.com/Raytchellee/eze-phone-gallery-ui.git](https://github.com/Raytchellee/eze-phone-gallery-ui.git)
+   git clone https://github.com/Raytchellee/eze-phone-gallery-ui.git
    ```
 
 2. Navigate to the project directory:
@@ -71,7 +71,7 @@ eze-phone-gallery-ui/
 ``` -->
 
 - **components/**: Contains reusable UI components used in the phone gallery.
-- **pages/**: Contains the main pages of the application, including `index.js` for the gallery page.
+- **pages/**: Contains the main pages of the application, including `index.tsx` for the gallery page.
 - **public/images/**: Directory for storing phone images.
 - **styles/**: Holds global CSS styles for the application.
 - **.gitignore**: Specifies files and directories to be ignored by Git.
@@ -98,7 +98,7 @@ The phone gallery UI can be customized to fit your specific needs. Here are some
 
 Feel free to explore the project files and experiment with different customizations!
 
-## Contributing
+<!-- ## Contributing -->
 
 <!-- Contributions are welcome!
 
