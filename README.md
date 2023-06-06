@@ -10,7 +10,7 @@ The phone gallery UI is a web application built with Next.js and utilizing Recoi
 
 ## Demo
 
-You can check out a live demo of the Phone Gallery UI [here](https://phone-gallery-ui-live-fx5z-ng6171x2n-raytchellee.vercel.app/).
+You can check out a live demo of the Phone Gallery UI <a href="https://phone-gallery-ui-live-fx5z-ng6171x2n-raytchellee.vercel.app" target="_blank">here</a>.
 
 ## Table of Contents
 
