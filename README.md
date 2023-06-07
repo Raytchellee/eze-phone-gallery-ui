@@ -10,7 +10,7 @@ The phone gallery UI is a web application built with Next.js and TypeScript, uti
 
 ## Demo
 
-You can check out a live demo of the Phone Gallery UI [here](https://phone-gallery-ui-live-fx5z-ng6171x2n-raytchellee.vercel.app).
+You can check out a live demo of the Phone Gallery UI [here](https://phone-gallery-ui-live-fx5z-raytchellee.vercel.app).
 
 ## Table of Contents
 
