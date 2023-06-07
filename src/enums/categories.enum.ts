@@ -2,7 +2,8 @@ export enum CATEGORIES {
     ALL = "All",
     IPHONE = "iPhone",
     SAMSUNG = "Samsung",
-    IPAD = "ipad",
+    GOOGLE = "Google",
+    // IPAD = "ipad",
     MACBOOK = "MacBook",
-    AIRPODS = "AirPods",
+    // AIRPODS = "AirPods",
 }

@@ -8,8 +8,8 @@ export function Gadgets(){
     const phones = useRecoilValue(PhonesAtom)
     return (
         <div className={styles.gadgets}>
-            {phones.map(phone => (
-                <SingleGadget key={phone.id} data={phone} />
+            {phones.map((phone, index) => (
+                <SingleGadget key={phone.id + index} data={phone} />
             ))}
         </div>
     )

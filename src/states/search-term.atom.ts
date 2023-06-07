@@ -1,6 +1,6 @@
 import { atom } from "recoil";
 
 export const SearchTermAtom = atom<string>({
-    key: "searchTerm",
+    key: "searchTermAtom",
     default: ""
 });

@@ -24,17 +24,24 @@ export function useActions() {
 
     const fetchPhones = useCallback(async () => {
         if (loading) return;
-        const baseUrl = "https://api-dev.ezewholesale.com/ims/v2/inventories/prices/list?page=1&take=20&category=Cell+Phones";
+        const baseUrl = "https://api-dev.ezewholesale.com/ims/v2/inventories/prices/list?page=1&take=50";
         setLoading(true);
 
         return await new Promise((resolve, reject) => {
-            const searchQuery = searchTerm ? `&searchTerm=${searchTerm}&` : '';
+            const categoryQuery = categories === CATEGORIES.MACBOOK
+            ? "&category=Laptops"
+            : "&category=Cell+Phones";
+            const searchQuery = searchTerm ? `&searchTerm=${searchTerm}` : '';
             // const brandQuery = categories === CATEGORIES.ALL ? '&brand=Apple,Samsung,Google' : `&brand=${categories}`;
-            // const brandQuery = '&brand=Apple';
-            const brandQuery = '&brand=Apple,Samsung,Google';
+            // const brandQuery = '&brand=Apple,Samsung,Google';
+            const brandQuery = categories === CATEGORIES.IPHONE || categories === CATEGORIES.MACBOOK
+            ? "&brand=Apple"
+            : categories === CATEGORIES.ALL
+            ? "&brand=Apple,Samsung,Google"
+            : `&brand=${categories}`;
             const fetchedPhones: Phone[] = [];
 
-            fetch(`${baseUrl}${searchQuery}${brandQuery}`, {
+            fetch(`${baseUrl}${categoryQuery}${searchQuery}${brandQuery}`, {
                 method: "GET",
                 headers: {
                     "Content-Type": "application/json",
@@ -73,7 +80,7 @@ export function useActions() {
                     resolve(false);
                 })
         })
-    }, [])
+    }, [searchTerm, categories])
 
     return {fetchPhones}
 }

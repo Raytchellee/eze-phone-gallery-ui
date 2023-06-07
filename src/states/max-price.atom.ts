@@ -1,6 +1,6 @@
 import { atom } from "recoil";
 
 export const MaxPriceAtom = atom<number>({
-    key: "maxPrice",
+    key: "maxPriceAtom",
     default: 1000,
 });
